@@ -22,6 +22,110 @@ This repository contains my Linux Fundamentals Assignment focused on:
 - Documentation using Markdown
 
 ---
+# Project Description
+
+This project demonstrates practical Linux operating system fundamentals through hands-on command-line exercises and network diagnostics. The lab focuses on collecting system information, analyzing hardware and operating system details, testing network connectivity, and developing familiarity with essential Linux commands.
+
+The objective of this assignment is to build foundational Linux administration and troubleshooting skills commonly used in cybersecurity, system administration, cloud computing, and IT operations.
+
+---
+
+# Project Overview
+
+This project covers core Linux operations including:
+
+- Identifying user and system information
+- Exploring operating system and hardware details
+- Monitoring memory and disk utilization
+- Performing network connectivity tests
+- Understanding Linux command-line environments
+- Practicing basic Linux administration tasks
+
+The exercises were completed using a Linux environment (Kali Linux) and documented using Markdown for version control and GitHub portfolio presentation.
+
+---
+
+# Tools Used
+
+| Tool | Purpose |
+|------|---------|
+| Linux Terminal | Executing Linux commands |
+| Kali Linux | Operating System Environment |
+| Git | Version control |
+| GitHub | Repository hosting |
+| Markdown | Documentation |
+| Ping Utility | Network connectivity testing |
+| uname | System information retrieval |
+| free | Memory analysis |
+| df | Disk usage analysis |
+| hostname | Host identification |
+| pwd | Current directory display |
+
+---
+
+# Lab Workflow
+
+### Step 1 — System Identification
+Collected user and machine information using:
+
+```bash
+whoami
+hostname
+pwd
+```
+
+### Step 2 — System & Hardware Inspection
+Retrieved operating system and hardware details:
+
+```bash
+uname -a
+free -h
+df -h
+```
+
+### Step 3 — Network Connectivity Testing
+Verified internet connectivity and measured response time:
+
+```bash
+ping -c 2 8.8.8.8
+ping -c 4 google.com
+```
+
+### Step 4 — Documentation
+Captured outputs, screenshots, observations, and documented findings in Markdown for GitHub publishing.
+
+---
+
+# Concepts Covered
+
+This project introduces key Linux and networking concepts:
+
+- Linux File System Navigation
+- User & Host Identification
+- Linux Kernel Information
+- RAM and Storage Monitoring
+- Command Line Interface (CLI)
+- Network Connectivity Testing
+- DNS Resolution
+- ICMP Protocol
+- Round Trip Time (RTT)
+- System Diagnostics
+- Technical Documentation
+
+---
+
+# Key Takeaways
+
+By completing this project, I gained practical experience in:
+
+✅ Navigating Linux environments confidently  
+✅ Executing and understanding essential Linux commands  
+✅ Interpreting system performance metrics  
+✅ Testing and validating network connectivity  
+✅ Understanding basic networking concepts  
+✅ Documenting technical work professionally using GitHub and Markdown  
+
+This project strengthened my foundational Linux and cybersecurity operational skills and serves as part of my practical cybersecurity learning portfolio.
 
 # Assignment Structure
 
